@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Alpha Dawn 研究工作台：积累因果证据，维护少而稳定的核心候选，持续验证与反驳。">
+<title>Alpha Dawn · 长期研究工作台</title>
+<link rel="stylesheet" href="conviction.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%230d1822'/%3E%3Cpath d='M8 30L20 9l12 21M13 23h14' fill='none' stroke='%2398e3bb' stroke-width='3'/%3E%3C/svg%3E">
+<script src="conviction-core.js" defer></script><script src="conviction.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳转到主要内容</a>
+<div class="shell">
+<aside class="sidebar">
+<a class="brand" href="#overview"><span class="brandmark" aria-hidden="true">A</span><span>ALPHA DAWN<small>长期研究工作台</small></span></a>
+<div class="private-label"><span></span> RESEARCH / EVIDENCE</div>
+<a href="semiconductor.html" style="display:block;margin:12px 0;padding:10px 12px;border:1px solid #3a5e4b;border-radius:8px;color:#a0e5bd;text-decoration:none;font-size:12px">半导体供应链 · 拉美材料与东盟封测 ↗</a>
+<nav class="primary" aria-label="研究导航"><button data-view="healthcare"><span>01</span>医疗与生命科学</button>
+<button data-view="overview" class="active"><span>01</span>研究总览</button>
+<button data-view="radar"><span>02</span>发现雷达</button>
+<button data-view="core"><span>03</span>核心候选 <b id="nav-core">0/5</b></button>
+</nav><details class="nav-group"><summary>研究工具</summary><nav class="primary advanced-nav" aria-label="深入研究工具"><button data-view="history"><span>04</span>历史实验室</button>
+<button data-view="queue"><span>05</span>验证队列</button>
+<button data-view="automation"><span>06</span>自动研究准备</button>
+</nav>
+</details><details class="nav-group"><summary>已有研究资产</summary>
+<nav class="archives" aria-label="既有研究"><a href="universe.html">财务股票池 <span>↗</span></a><a href="buy-side.html">FEV 买方决策台 <span>↗</span></a><a href="research.html">历史研究库 <span>↗</span></a><a href="data-center.html">Data Center 价值链 <span>↗</span></a><a href="weekly.html">周度市场档案 <span>↗</span></a><a href="dalio.html">全球债务机制 <span>↗</span></a><a href="jpm-archive.html">JPM 历史快照 <span>↗</span></a></nav></details>
+<p class="side-note">让每一次判断<br>都留下可追溯的来路。</p>
+</aside>
+<main id="main" tabindex="-1">
+<header class="topbar"><div><span class="eyebrow">RESEARCH / COMPOUNDING KNOWLEDGE</span><p id="today-label"></p></div><div class="top-actions"><details class="backup-tools"><summary>数据与备份</summary><div><button id="export-data" class="quiet">导出备份 ↓</button><button id="import-data" class="quiet">导入备份</button></div></details><button id="new-record" class="accent">＋ 新研究</button></div></header>
+<p class="status" id="status" role="status" aria-live="polite">正在加载研究工作台…</p>
+<div id="workspace"></div>
+<footer><span>Alpha Dawn · 思考、验证、更新</span><span>浏览器本地保存 · 无实时行情 · 无后台自动任务 · 无交易执行</span></footer>
+</main>
+</div>
+<input type="file" id="backup-file" accept="application/json,.json" hidden><input type="file" id="intake-file" accept="application/json,.json" hidden>
+<dialog id="record-dialog" aria-labelledby="record-title"><div class="dialog-top"><div><span class="eyebrow">LIVING THESIS / 持续更新的论点</span><h2 id="record-title">公司研究档案</h2></div><button id="close-record" class="quiet" aria-label="关闭研究档案">关闭 ×</button></div><div id="record-body"></div></dialog>
+<dialog id="case-dialog" aria-labelledby="case-title"><div class="dialog-top"><div><span class="eyebrow">EX ANTE / 事前信息</span><h2 id="case-title">历史研究模板</h2></div><button id="close-case" class="quiet" aria-label="关闭历史案例">关闭 ×</button></div><div id="case-body"></div></dialog>
+<noscript><p class="notice">研究工作台需要 JavaScript。既有<a href="research.html">研究库</a>、<a href="universe.html">财务股票池</a>仍保留。</p></noscript>
+</body></html>

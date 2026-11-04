@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Alpha Dawn 国家大周期、情景概率与每周市场观察"><title>本周市场资金与情绪动向 · Alpha Dawn</title><link rel="stylesheet" href="weekly.css"></head>
+<body><main>
+<header><a class="brand" href="index.html">ALPHA DAWN <span>/ WEEKLY</span></a><nav aria-label="看板导航"><a href="index.html">公司看板</a><a href="dalio.html">债务周期图谱</a><a href="buy-side.html">买方决策台</a></nav></header>
+<div class="titlebar"><div><p class="eyebrow">国家大周期 → 本周证据 → 下一次验证</p><h1>本周市场资金与情绪动向</h1></div><label class="issuecontrol">周报档案<select id="issue" aria-label="选择周报"></select></label></div>
+<p id="dateline" class="caption">正在读取研究快照…</p><p id="error" role="alert"></p>
+<div id="app" hidden>
+<section class="countrysection" aria-labelledby="chooseTitle"><div class="sectionhead"><h2 id="chooseTitle">选择一个国家</h2><span class="caption">小条为市场动量温度 · 点击后先看大周期</span></div><div id="countries" class="countries" role="group" aria-label="研究国家"></div></section>
+<div id="selectionStatus" class="sr-only" aria-live="polite"></div><div id="overview" class="overview"></div>
+<div class="viewbar"><span id="scopeName" class="scope"></span><div role="tablist" aria-label="国家研究视图" id="tabs"><button id="tab-cycle" role="tab" aria-selected="true" aria-controls="view-cycle" data-tab="cycle">大周期与国家底盘</button><button id="tab-week" role="tab" aria-selected="false" aria-controls="view-week" data-tab="week" tabindex="-1">本周、行业与 ETF</button><button id="tab-valuation" role="tab" aria-selected="false" aria-controls="view-valuation" data-tab="valuation" tabindex="-1">公司估值</button><button id="tab-next" role="tab" aria-selected="false" aria-controls="view-next" data-tab="next" tabindex="-1">下周验证</button></div></div>
+<div id="view-cycle" role="tabpanel" aria-labelledby="tab-cycle"></div><div id="view-week" role="tabpanel" aria-labelledby="tab-week" hidden></div><div id="view-valuation" role="tabpanel" aria-labelledby="tab-valuation" hidden></div><div id="view-next" role="tabpanel" aria-labelledby="tab-next" hidden></div>
+<details id="sources" class="panel sourcepanel"><summary>来源、方法与当前国家的数据缺口</summary><div id="sourceList"></div><button id="download">下载本期研究快照</button></details>
+<footer><span>ALPHA DAWN / 专题研究</span><span>数据截至日逐项标明 · 情景权重不等于资产涨跌概率</span><a href="#" id="top">回到国家选择 ↑</a></footer>
+</div></main><script src="valuation.js"></script><script src="weekly.js"></script><script src="research-nav.js"></script></body></html>
